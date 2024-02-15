@@ -10,3 +10,8 @@ class Ordenador:
             # Coloca o menor elemento encontrado no início da sub-lista
             # Para isso, troca de lugar os elementos nas posições e r posicao_do_minimo
             lista[i], lista[posicao_do_minimo] = lista[posicao_do_minimo], lista[i]
+
+# Para testar o programa:
+# 1) Criar uma lista com valores desordenados, i.e, lista = [x, y, z]
+# 2) Instanciar um objeto da classe Ordenador, i.e, o = Ordenador()
+# 3) Chamar a função selecao_direta, i.e, o.selecao_direta(lista))
